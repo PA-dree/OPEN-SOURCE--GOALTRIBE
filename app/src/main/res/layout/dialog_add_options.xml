@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingTop="8dp"
+    android:background="?attr/colorSurface">
+    <View
+        android:layout_width="32dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_dialog_card"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What would you like to add?"
+        android:textAppearance="?attr/textAppearanceTitleMedium"
+        android:textColor="?attr/colorOnSurface"
+        android:paddingHorizontal="24dp"
+        android:paddingBottom="24dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/btnAddGoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="56dp"
+        android:paddingHorizontal="24dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="?attr/selectableItemBackground">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_goal"
+            android:contentDescription="Add Goal Icon" />
+
+        <TextView
+            android:id="@+id/tvAddGoal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Goal"
+            android:textAppearance="?attr/textAppearanceBodyLarge"
+            android:textColor="?attr/colorOnSurface"
+            android:layout_marginStart="24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnAddChallenge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="56dp"
+        android:paddingHorizontal="24dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="?attr/selectableItemBackground">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_check_circle_green"
+            android:contentDescription="Add Challenge Icon" />
+
+        <TextView
+            android:id="@+id/tvAddChallenge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Challenge"
+            android:textAppearance="?attr/textAppearanceBodyLarge"
+            android:textColor="?attr/colorOnSurface"
+            android:layout_marginStart="24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnAddTribe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="56dp"
+        android:paddingHorizontal="24dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="?attr/selectableItemBackground">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_avatar"
+            android:contentDescription="Add Tribe Icon" />
+
+        <TextView
+            android:id="@+id/tvAddTribe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create or Join Tribe"
+            android:textAppearance="?attr/textAppearanceBodyLarge"
+            android:textColor="?attr/colorOnSurface"
+            android:layout_marginStart="24dp" />
+    </LinearLayout>
+
+</LinearLayout>
