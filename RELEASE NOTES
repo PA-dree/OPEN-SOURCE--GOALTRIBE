@@ -1,0 +1,66 @@
+🧩 *RELEASE_NOTES.md*
+GoalTribe – Final Release Notes (v1.0.0)
+
+ Student: Mantikologa Mashamaite
+ Date: 07 November 2025
+
+---
+
+Summary
+This version upgrades the original prototype into a fully functional production-ready app.  
+The improvements focus on usability, reliability, and modern Android practices.
+
+---
+
+  New Features Since Prototype
+
+1. Google Single Sign-On (SSO)
+- Integrated *Firebase Authentication* with Google Sign-In.
+- Simplified user login with one tap.
+- Added detailed logs to monitor sign-in/out actions.
+
+ 2. Offline Mode with Sync
+- Added *Room Database* to store local data when offline.
+- Implemented *WorkManager* to sync data automatically once online.
+- Added sync progress logs for debugging and demonstration.
+
+ 3. Real-Time Notifications
+- Integrated *Firebase Cloud Messaging (FCM)*.
+- App receives live push notifications and displays them instantly.
+- Notifications redirect users to related screens when tapped.
+
+4. Multi-Language Support
+- Added strings.xml for isiZulu (values-zu) and Afrikaans (values-af).
+- Implemented an in-app toggle to change languages dynamically.
+
+ 5. Logging and Code Documentation
+- Added Log.d, Log.i, and Log.e throughout major modules.
+- Every new feature is explained with inline Kotlin comments.
+
+---
+
+💡 Innovative Highlights
+- *Offline-first architecture*: Users can continue interacting even without data.
+- *Automatic synchronization* creates a seamless experience when reconnecting.
+- *Localization* makes the app inclusive for South African audiences.
+- *Firebase integration* for both SSO and notifications adds modern cloud connectivity.
+
+---
+
+🛠️ Technical Updates
+| Area | Update |
+|------|---------|
+| Database | RoomDB added with pending sync flag |
+| Authentication | Google Sign-In via Firebase |
+| Background Tasks | Periodic sync using WorkManager |
+| Notifications | Firebase Cloud Messaging |
+| Languages | English, isiZulu, Afrikaans |
+| Build | Signed release APK generated |
+
+---
+
+📅 Version History
+| Version | Date | Notes |
+|----------|------|-------|
+| *v0.1* | July 2025 | Prototype with manual login |
+| *v1.0.0* | Nov 2025 | Added SSO, Offline Mode, Notifications, Multi-Language |
