@@ -25,3 +25,11 @@ GitHub Actions for Continuous Integration: Automated Gradle builds and unit test
 on each push or pull request, improving reliability and catching issues early.
 The integration of GitHub Actions improved build quality, testing consistency, and saved
 development time.
+
+
+# HOW TO COMPILE
+CLONE REPS TO YOUR ANDRIOD STUDIOS
+SYNC GRADLES
+BUILD
+RUN ON EMULATOR OR
+GENERATE APK
