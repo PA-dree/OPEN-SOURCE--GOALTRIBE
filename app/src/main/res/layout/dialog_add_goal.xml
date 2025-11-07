@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_dialog_card"
+        android:padding="24dp">
+
+        <TextView
+            android:text="@string/set_a_new_goal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_horizontal"/>
+
+        <EditText
+            android:id="@+id/etGoalName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/goal_name"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_input_box"
+            android:padding="12dp"
+            android:inputType="textCapSentences"/>
+
+        <TextView
+            android:text="Break into Habits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:src="@drawable/ic_calendar"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView
+                android:text="@string/run_3_times_a_week"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+
+            <CheckBox
+                android:id="@+id/cbRun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:src="@drawable/ic_lightning"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView
+                android:text="@string/stretch_daily"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+
+            <Switch
+                android:id="@+id/swStretch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/target_date"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/tvTargetDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="12dp"
+            android:background="@drawable/bg_input_box"
+            android:drawableStart="@drawable/ic_calendar"
+            android:drawablePadding="8dp"
+            android:text="@string/select_date"/>
+
+        <TextView
+            android:text="Motivational Note"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/etMotivation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/train_for_the_race_and_stay_healthy"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_input_box"
+            android:minHeight="80dp"
+            android:gravity="top"
+            android:padding="12dp"
+            android:inputType="textMultiLine"/>
+
+        <Button
+            android:id="@+id/btnSaveGoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_goal"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#007AFF"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+</ScrollView>

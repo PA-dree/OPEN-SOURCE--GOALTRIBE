@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "97300424643",
+    "project_id": "goaltribe",
+    "storage_bucket": "goaltribe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97300424643:android:0a6ce93aee3580a1b33f76",
+        "android_client_info": {
+          "package_name": "com.functions.goaltribe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97300424643-grv56kd5f9t9t8numteg4rko68jq91qc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD6apb3Ve72CdnkVxKYskEVgLwlPRIDqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97300424643-grv56kd5f9t9t8numteg4rko68jq91qc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
