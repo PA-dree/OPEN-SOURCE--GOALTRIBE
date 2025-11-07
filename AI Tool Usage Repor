@@ -1,0 +1,36 @@
+ 🧠 How AI Tools Were Used
+
+During the final development of GoalTribe, I used AI tools (mainly ChatGPT) to help me understand, debug, and improve my Kotlin code.  
+The AI was not used to build the entire project automatically—it acted as a tutor and reference tool.
+
+Examples of Use
+1. *Code Snippet Assistance*
+   - I asked for examples of how to implement a Room database with WorkManager to sync data.
+   - The AI produced sample code which I then studied, modified, and integrated into my own app.
+   - I added my own comments and changed variable names to fit my project.
+
+2. Debugging
+   - When I had Firebase Authentication errors like “DEVELOPER_ERROR” or FCM registration issues, I asked the AI to explain possible causes.
+   - It helped me locate missing configuration steps in the Google Cloud Console and fixed them successfully.
+
+3. Documentation & ReadMe Structure
+   - I used AI to structure this README, release notes, and write a clearer explanation of my features.
+
+4. Language Support
+   - I asked for translations of a few interface strings to isiZulu and Afrikaans.  
+   - I then verified the translations myself and adjusted them for accuracy.
+
+---
+
+⚙️ Ethical Use & Citations
+- All AI-generated text and code snippets were reviewed, edited, and rewritten by me.
+- The AI’s suggestions served only as a guide—final logic and debugging were completed manually in Android Studio.
+- Any snippet used from AI was cited in this document, and all Firebase/Android code follows Google’s open documentation examples.
+
+---
+
+ 📚 Reflection
+Using AI made it easier to understand new concepts like WorkManager, FCM, and localization.  
+It felt like having a tutor explain complicated code one line at a time.  
+However, I learned the importance of reading the official docs and testing each change myself.  
+The AI was most useful for *learning reasoning*, not for copying code blindly.
